@@ -14,15 +14,15 @@ public class Task {
    }
 
    public String getDescription() {
-      return description;
+      return this.description;
    }
 
    public void setDescription(String description) {
       this.description = description;
    }
 
-   public boolean isComplete() {
-      return isComplete;
+   public boolean isComplete() {// get status of isComplete
+      return this.isComplete;
    }
 
    public void setComplete(boolean isComplete) {
